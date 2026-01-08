@@ -3,8 +3,13 @@ import { initReactI18next } from 'react-i18next'
 import vi from './locales/vi/translation.json'
 import en from './locales/en/translation.json'
 
-const savedLang = localStorage.getItem('lang')
 const defaultLang = 'vi'
+
+// Xóa localStorage cũ nếu có giá trị không hợp lệ
+const savedLang = localStorage.getItem('lang')
+if (savedLang && !['vi', 'en'].includes(savedLang)) {
+  localStorage.removeItem('lang')
+}
 
 i18n
   .use(initReactI18next)
@@ -13,7 +18,7 @@ i18n
       vi: { translation: vi },
       en: { translation: en },
     },
-    lng: savedLang || defaultLang,
+    lng: savedLang && ['vi', 'en'].includes(savedLang) ? savedLang : defaultLang,
     fallbackLng: defaultLang,
     interpolation: { escapeValue: false },
   })
