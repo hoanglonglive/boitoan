@@ -1,0 +1,151 @@
+{
+  "app": { "loading": "Guided by the stars..." },
+  "layout": {
+    "logoTitle": "AI Divination",
+    "logoSubtitle": "Explore the unknown · See the future",
+    "home": "Home",
+    "login": "Login",
+    "logout": "Logout",
+    "settings": "Settings",
+    "toggleTheme": "Toggle theme",
+    "visitorRateLimit": "Visitor rate limit ({{rate}})",
+    "customizeConfig": "Customize config →",
+    "footer": "© {{year}} AI Tarot Divination. Keep an open mind."
+  },
+  "market": {
+    "start": "Start divination",
+    "aboutTitle": "About divination",
+    "aboutDesc": "Learn origins and meanings of methods",
+    "viewDetails": "View details"
+  },
+  "divination": {
+    "tarot": {
+      "label": "Tarot",
+      "title": "Tarot Divination",
+      "description": "Explore mind and future possibilities via Tarot",
+      "inputPlaceholder": "How is my financial situation",
+      "inputHint": "Enter your question (up to 40 chars)",
+      "viewResult": "View result",
+      "divining": "Divining",
+      "start": "Start divination"
+    },
+    "fate": {
+      "label": "Fate",
+      "title": "Fate Divination",
+      "description": "Test affinity index, seek destiny",
+      "tipTitle": "Fate is destined; happiness is yours.",
+      "tipLine1": "Enter \"Name 1\" and \"Name 2\", then click \"Predict\".",
+      "tipLine2": "Example: John Doe – Jane Doe, then click Predict to view.",
+      "name1": "Name 1",
+      "name2": "Name 2",
+      "buyCoffee": "Buy the author a coffee",
+      "viewResult": "View result",
+      "divining": "Divining",
+      "start": "Start divination"
+    },
+    "birthday": {
+      "label": "BaZi",
+      "title": "BaZi",
+      "description": "Decode destiny by birth data",
+      "birthdayLabel": "Birthday",
+      "lunarLabel": "Lunar",
+      "lunarConvertFail": "Conversion failed",
+      "viewResult": "View result",
+      "divining": "Divining",
+      "start": "Start divination"
+    },
+    "new_name": {
+      "label": "Name",
+      "title": "Name",
+      "description": "Pick a good name with Five Elements",
+      "surname": "Surname",
+      "surnamePlaceholder": "Enter surname",
+      "gender": "Gender",
+      "genderPlaceholder": "Select gender",
+      "male": "Male",
+      "female": "Female",
+      "birthdayLabel": "Birthday",
+      "extraRequirements": "Extra requirements",
+      "extraRequirementsPlaceholder": "e.g., prefer Water element",
+      "lunarPrefix": "Lunar:",
+      "lunarConvertFail": "Conversion failed",
+      "fillSurnameGender": "Please fill surname and gender",
+      "viewResult": "View result",
+      "divining": "Divining",
+      "start": "Start divination"
+    },
+    "name": {
+      "label": "Name Five Grids",
+      "title": "Name Five Grids",
+      "description": "Analyze name impact on fortune",
+      "namePlaceholder": "Enter full name",
+      "nameHint": "Please enter full name (up to 10 characters)",
+      "viewResult": "View result",
+      "divining": "Divining",
+      "start": "Start divination"
+    },
+    "dream": {
+      "label": "Dream",
+      "title": "Zhougong Dream",
+      "description": "Interpret dreams and subconscious",
+      "dreamPlaceholder": "Describe your dream",
+      "dreamHint": "Please describe briefly (up to 40 chars)",
+      "viewResult": "View result",
+      "divining": "Divining",
+      "start": "Start divination"
+    },
+    "plum_flower": {
+      "label": "Meihua Yi",
+      "title": "Meihua Yi",
+      "description": "Ancient method predicting fortune",
+      "inputInstruction": "Enter two random numbers between 0-1000",
+      "number1": "Number One",
+      "number2": "Number Two",
+      "viewResult": "View result",
+      "divining": "Divining",
+      "start": "Start divination"
+    }
+  },
+  "settings": {
+    "title": "API Settings",
+    "desc": "Customize your OpenAI API configuration",
+    "save": "Save settings",
+    "saving": "Saving...",
+    "saved": "Saved",
+    "savedToast": "Settings saved successfully",
+    "enableCustom": "Enable custom API",
+    "enableCustomDesc": "Use your own API configuration",
+    "baseUrl": "API Base URL",
+    "apiKey": "API Key",
+    "getApiKey": "Get API KEY",
+    "model": "Model"
+  },
+  "common": {
+    "back": "Back",
+    "history": "History",
+    "clearAll": "Clear all",
+    "deleted": "Deleted",
+    "clearAllConfirm": "Are you sure to clear all history?"
+  },
+  "history": {
+    "recentCount": "Recent {{count}} records",
+    "empty": "No history",
+    "hint": "Records are saved automatically after divination"
+  },
+  "result": {
+    "title": "Divination Result",
+    "loadingTitle": "Divining...",
+    "loadingDesc": "Please wait, AI is interpreting for you"
+  },
+  "login": {
+    "failed": "Login failed: {{error}}",
+    "title": "Login",
+    "desc": "Quick login with GitHub",
+    "logging": "Logging in...",
+    "github": "Login with GitHub",
+    "backHome": "Back to home"
+  },
+  "about": {
+    "content": "# About & Terms\n\nThis app provides multiple divination methods (Tarot, BaZi, Meihua, Dream interpretation, Name analysis). Results are for reference only; keep an open mind."
+  }
+}

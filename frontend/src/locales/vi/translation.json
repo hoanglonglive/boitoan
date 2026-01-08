@@ -1,0 +1,153 @@
+{
+  "app": {
+    "loading": "Đang được các vì sao dẫn lối..."
+  },
+  "layout": {
+    "logoTitle": "AI Bói Toán",
+    "logoSubtitle": "Khám phá điều chưa biết · Nhìn thấu tương lai",
+    "home": "Trang chủ",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "settings": "Cài đặt",
+    "toggleTheme": "Đổi giao diện",
+    "visitorRateLimit": "Chế độ giới hạn khách ({{rate}})",
+    "customizeConfig": "Tùy chỉnh cấu hình →",
+    "footer": "© {{year}} AI Tarot Divination. Hãy luôn cởi mở."
+  },
+  "market": {
+    "start": "Bắt đầu bói",
+    "aboutTitle": "Giới thiệu bói toán",
+    "aboutDesc": "Tìm hiểu nguồn gốc và ý nghĩa các phương pháp bói",
+    "viewDetails": "Xem chi tiết"
+  },
+  "divination": {
+    "tarot": {
+      "label": "Tarot",
+      "title": "Bói Tarot",
+      "description": "Khám phá nội tâm và khả năng tương lai qua Tarot",
+      "inputPlaceholder": "Tình hình tài chính của tôi thế nào",
+      "inputHint": "Nhập câu hỏi bạn muốn bói (tối đa 40 ký tự)",
+      "viewResult": "Xem kết quả",
+      "divining": "Đang bói",
+      "start": "Bắt đầu bói"
+    },
+    "fate": {
+      "label": "Duyên phận",
+      "title": "Bói duyên phận",
+      "description": "Đo chỉ số nhân duyên, tìm điều định mệnh",
+      "tipTitle": "Duyên là trời định, hạnh phúc do mình.",
+      "tipLine1": "Nhập \"Họ tên 1\" và \"Họ tên 2\", sau đó bấm \"Dự đoán\".",
+      "tipLine2": "Ví dụ: Nguyễn Văn A – Trần Thị B, rồi bấm Dự đoán để xem chỉ số.",
+      "name1": "Họ tên 1",
+      "name2": "Họ tên 2",
+      "buyCoffee": "Mời tác giả một ly cà phê",
+      "viewResult": "Xem kết quả",
+      "divining": "Đang bói",
+      "start": "Bắt đầu bói"
+    },
+    "birthday": {
+      "label": "Tứ trụ (Bát tự)",
+      "title": "Sinh thần bát tự",
+      "description": "Giải mã số mệnh theo giờ ngày tháng năm sinh",
+      "birthdayLabel": "Ngày sinh",
+      "lunarLabel": "Âm lịch",
+      "lunarConvertFail": "Chuyển đổi thất bại",
+      "viewResult": "Xem kết quả",
+      "divining": "Đang bói",
+      "start": "Bắt đầu bói"
+    },
+    "new_name": {
+      "label": "Đặt tên",
+      "title": "Đặt tên",
+      "description": "Kết hợp ngũ hành – bát tự để đặt tên phù hợp",
+      "surname": "Họ",
+      "surnamePlaceholder": "Nhập họ",
+      "gender": "Giới tính",
+      "genderPlaceholder": "Chọn giới tính",
+      "male": "Nam",
+      "female": "Nữ",
+      "birthdayLabel": "Ngày sinh",
+      "extraRequirements": "Yêu cầu bổ sung",
+      "extraRequirementsPlaceholder": "Ví dụ: mong tên thuộc hành Thủy",
+      "lunarPrefix": "Âm lịch:",
+      "lunarConvertFail": "Chuyển đổi thất bại",
+      "fillSurnameGender": "Vui lòng điền họ và giới tính",
+      "viewResult": "Xem kết quả",
+      "divining": "Đang bói",
+      "start": "Bắt đầu bói"
+    },
+    "name": {
+      "label": "Ngũ cách tên",
+      "title": "Phân tích ngũ cách tên",
+      "description": "Hiểu ảnh hưởng của tên tới vận mệnh",
+      "namePlaceholder": "Nhập họ tên",
+      "nameHint": "Vui lòng nhập họ tên đầy đủ (tối đa 10 ký tự)",
+      "viewResult": "Xem kết quả",
+      "divining": "Đang bói",
+      "start": "Bắt đầu bói"
+    },
+    "dream": {
+      "label": "Giải mộng",
+      "title": "Giải mộng Chu Công",
+      "description": "Giải nghĩa giấc mơ, khám phá tiềm thức",
+      "dreamPlaceholder": "Mô tả giấc mơ của bạn",
+      "dreamHint": "Hãy mô tả ngắn gọn (tối đa 40 ký tự)",
+      "viewResult": "Xem kết quả",
+      "divining": "Đang bói",
+      "start": "Bắt đầu bói"
+    },
+    "plum_flower": {
+      "label": "Mai hoa dịch số",
+      "title": "Mai hoa dịch số",
+      "description": "Thuật dự đoán cổ xưa: cát hung họa phúc",
+      "inputInstruction": "Hãy nhập ngẫu nhiên hai số từ 0-1000",
+      "number1": "Số thứ nhất",
+      "number2": "Số thứ hai",
+      "viewResult": "Xem kết quả",
+      "divining": "Đang bói",
+      "start": "Bắt đầu bói"
+    }
+  },
+  "settings": {
+    "title": "Cài đặt API",
+    "desc": "Tùy chỉnh cấu hình API OpenAI của bạn",
+    "save": "Lưu cài đặt",
+    "saving": "Đang lưu...",
+    "saved": "Đã lưu",
+    "savedToast": "Cài đặt đã lưu thành công",
+    "enableCustom": "Bật API tùy chỉnh",
+    "enableCustomDesc": "Sử dụng cấu hình API của bạn",
+    "baseUrl": "Địa chỉ API",
+    "apiKey": "API Key",
+    "getApiKey": "Lấy API KEY",
+    "model": "Mô hình"
+  },
+  "common": {
+    "back": "Quay lại",
+    "history": "Lịch sử",
+    "clearAll": "Xóa tất cả",
+    "deleted": "Đã xóa",
+    "clearAllConfirm": "Bạn có chắc muốn xóa toàn bộ lịch sử không?"
+  },
+  "history": {
+    "recentCount": "Gần đây có {{count}} bản ghi bói toán",
+    "empty": "Chưa có lịch sử",
+    "hint": "Sau khi bói sẽ tự động lưu"
+  },
+  "result": {
+    "title": "Kết quả bói",
+    "loadingTitle": "Đang bói...",
+    "loadingDesc": "Vui lòng đợi, AI đang luận giải cho bạn"
+  },
+  "login": {
+    "failed": "Đăng nhập thất bại: {{error}}",
+    "title": "Đăng nhập tài khoản",
+    "desc": "Đăng nhập nhanh bằng GitHub",
+    "logging": "Đang đăng nhập...",
+    "github": "Đăng nhập với GitHub",
+    "backHome": "Quay lại trang chủ"
+  },
+  "about": {
+    "content": "# Giới thiệu & Thuật ngữ\n\n## Ngũ cách tên\n\nNgũ cách tên là hệ thống phân tích dựa trên tên, xem xét ngũ hành, âm số và ý nghĩa để tham chiếu tính cách và vận mệnh. Đây chỉ là công cụ tham khảo, không quyết định tuyệt đối.\n\n## Mai hoa dịch số\n\nLà phương pháp dự đoán cổ dựa trên Kinh Dịch và tượng quẻ. Thường dùng để suy đoán xu hướng sự việc, cần học và thực hành để hiểu đúng.\n\n## Giải mộng Chu Công\n\nGiải thích biểu tượng trong giấc mơ để hiểu tiềm thức. Mang tính tham khảo, không có cơ sở khoa học tuyệt đối.\n\n## Tarot\n\nBộ bài 78 lá dùng cho chiêm nghiệm nội tâm, định hướng tương lai. Kết quả phụ thuộc người luận giải và bối cảnh, hãy giữ tâm thế cởi mở.\n\n## Sinh thần bát tự\n\nDựa trên thiên can địa chi của năm, tháng, ngày, giờ sinh để phân tích năm yếu tố ngũ hành, âm dương và mối quan hệ sinh khắc. Cần chuyên gia hoặc công cụ phù hợp để luận giải."
+  }
+}
